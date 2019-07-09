@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+
+    <tlib-version>1.0</tlib-version>
+    <uri>customelburl</uri>
+
+    <function>
+        <name>seoURL</name>
+        <function-class>com.example.utils.CustomELUtils</function-class>
+        <function-signature>java.lang.String seoURL(java.lang.String)</function-signature>
+    </function>
+
+</taglib>
